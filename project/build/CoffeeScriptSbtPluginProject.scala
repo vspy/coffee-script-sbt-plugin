@@ -1,7 +1,7 @@
 import sbt._
 
 class CoffeeScriptSbtPluginProject(info: ProjectInfo) extends PluginProject(info) with test.ScalaScripted {
-  //val jcoffeescript = "org.jcoffeescript" % "jcoffeescript" % "1.0" from "http://cloud.github.com/downloads/yeungda/jcoffeescript/jcoffeescript-1.0.jar"
+  val jcoffeescript = "org.jcoffeescript" % "jcoffeescript" % "1.0" from "http://cloud.github.com/downloads/vspy/jcoffeescript/jcoffeescript-1.0.jar"
 
   val rhino = "rhino" % "js" % "1.6R7"
 
